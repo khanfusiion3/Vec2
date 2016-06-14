@@ -12,6 +12,9 @@ class Vec2 {
     }
     return this;
   }
+  clone() {
+    return new Vec2(this);
+  }
   negi() {
     return this.neg(this);
   }
